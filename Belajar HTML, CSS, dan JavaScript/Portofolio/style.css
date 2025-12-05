@@ -1,0 +1,190 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding: 0.8rem 2rem;
+    margin: 2% 5%;
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(6px);
+    border-radius: 50px;
+    border: 1px solid rgba(140, 160, 255, 0.2);
+}
+
+nav .item {
+    font-family: 'DynaPuff', cursive;
+    font-size: 1.1rem;
+    color: #c4d8ff;
+    text-decoration: none;
+    background: rgba(35, 45, 120, 0.6);
+    padding: 0.45rem 1.4rem;
+    border-radius: 50px;
+    transition: all 0.25s ease;
+}
+
+/* Hover and Active Effects */
+nav .item:hover {
+    background: #3f57ff;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(50, 100, 255, 0.35);
+}
+
+nav .item:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+
+/* spacer untuk mendorong beberapa item ke kiri */
+nav .spacer {
+    margin-right: auto;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    background-color: #000;
+    color: #fff;
+    padding: 0 5%;
+    border-radius: 15px;
+}
+
+.hero-text .item {
+    display: block;
+    margin: 1rem 0;
+    line-height: 1.1;
+}
+
+.hero-text .item:first-child {
+    font-size: clamp(1rem, 3vw, 2rem);
+    font-weight: 600;
+}
+
+.hero-text h1 {
+    font-size: clamp(2rem, 8vw, 5rem);
+    font-weight: 800;
+    margin: 1rem 0;
+}
+
+/* spacing khusus di .about: kalau memang mau pakai padding-left (meski kurang responsif),
+   scope biar tidak memengaruhi hero */
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    color: burlywood;
+}
+
+.about-text {
+    padding-left: 5%;
+    font-size: clamp(0.9rem, 2.5vw, 1.3rem);
+}
+
+/* Jika lo mau tetap pakai padding-left besar untuk "aspiring" di about, gunakan rule scoped ini.
+   Tapi hati-hati: ini kurang mobile-friendly. */
+.about #aspiring {
+    padding-left: clamp(2rem, 36%, 36%);
+}
+
+.about-text .item {
+    display: block;
+    line-height: 1;
+    margin: 2% 0;
+}
+
+.about h1 {
+    font-size: clamp(2rem, 8vw, 5rem);
+    color: #000;
+}
+
+.projects {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    color: burlywood;
+    padding: 0 5%;
+}
+
+.poster-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+
+.poster-left .line-intro {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(1.1rem, 2.3vw, 2rem);
+    opacity: 0.92;
+}
+
+.poster-left h1 {
+    margin: 0;
+    font-family: 'ClashDisplay', serif;
+    font-size: clamp(3rem, 8vw, 9rem);
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.poster-left .line-mid {
+    font-family: 'ClashDisplay', serif;
+    font-size: clamp(2rem, 6vw, 5rem);
+    margin: 0.3rem 0;
+}
+
+.poster-left .line-bottom {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: clamp(1rem, 1.7vw, 1.5rem);
+    opacity: 0.9;
+    margin-top: 1.2rem;
+}
+
+/* RIGHT SIDE */
+.poster-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    text-align: center;
+}
+
+.right-box {
+    width: 85%;
+    height: 75%;
+    border: 3px solid rgba(255,255,255,0.5);
+    border-radius: 12px;
+    padding: 2rem;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.section-poster {
+    display: grid;
+    grid-template-columns: 1.3fr 0.9fr;
+    min-height: 90vh;
+    padding: 3%;
+    border-radius: 18px;
+background: radial-gradient(
+    circle at 50% 5%,
+    rgba(153, 188, 221, 0.661) 0%,
+    rgba(110, 157, 201, 0.661) 0%,
+    rgba(80, 151, 217, 0.661) 0%,
+    #353fac 15%,
+    #273095 20%,
+    #1a237e 40%,
+    #151d71 45%,
+    #0d1454 70%,
+    #060b2c 100%
+);
+    color: white;
+
+}

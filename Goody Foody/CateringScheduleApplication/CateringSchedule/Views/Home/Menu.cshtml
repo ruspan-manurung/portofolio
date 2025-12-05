@@ -1,0 +1,111 @@
+﻿@{
+    ViewData["Title"] = "Menu";
+    // Static data for menu options
+    var menus = new Dictionary<string, string[,]>
+    {
+        { "January", new string[,] {
+            { "Week 1", "Grilled Chicken, Caesar Salad, Mashed Potatoes" },
+            { "Week 2", "Beef Lasagna, Garlic Bread, Mixed Vegetables" },
+            { "Week 3", "Teriyaki Salmon, Steamed Rice, Stir-fried Broccoli" },
+            { "Week 4", "Spaghetti Bolognese, Green Salad, Fruit Cup" } } },
+        { "February", new string[,] {
+            { "Week 1", "Chicken Curry, Basmati Rice, Papadum" },
+            { "Week 2", "Roast Beef, Yorkshire Pudding, Gravy" },
+            { "Week 3", "Fish Tacos, Coleslaw, Mexican Rice" },
+            { "Week 4", "Vegetable Stir-fry, Noodles, Spring Rolls" } } },
+        { "March", new string[,] {
+            { "Week 1", "BBQ Ribs, Cornbread, Coleslaw" },
+            { "Week 2", "Vegetarian Pizza, Garden Salad, Garlic Knots" },
+            { "Week 3", "Grilled Shrimp, Wild Rice, Steamed Asparagus" },
+            { "Week 4", "Chicken Alfredo Pasta, Caesar Salad, Breadsticks" } } },
+        { "April", new string[,] {
+            { "Week 1", "Turkey Sandwich, Sweet Potato Fries, Fresh Fruit" },
+            { "Week 2", "Salmon Teriyaki, Brown Rice, Mixed Vegetables" },
+            { "Week 3", "Tuna Salad Wrap, Chips, Pickles" },
+            { "Week 4", "Stuffed Bell Peppers, Mashed Potatoes, Green Beans" } } },
+        { "May", new string[,] {
+            { "Week 1", "Grilled Steak, Baked Potatoes, Mixed Greens" },
+            { "Week 2", "Pulled Pork Sandwich, Coleslaw, BBQ Beans" },
+            { "Week 3", "Vegetable Pasta, Garlic Bread, Fresh Fruit Salad" },
+            { "Week 4", "Chicken Tikka Masala, Basmati Rice, Naan Bread" } } },
+        { "June", new string[,] {
+            { "Week 1", "Grilled Fish, Lemon Butter Sauce, Roasted Vegetables" },
+            { "Week 2", "Beef Tacos, Guacamole, Salsa" },
+            { "Week 3", "Chicken Caesar Wrap, Chips, Fresh Fruit" },
+            { "Week 4", "Shrimp Scampi, Angel Hair Pasta, Garden Salad" } } },
+        { "July", new string[,] {
+            { "Week 1", "BBQ Chicken, Mac & Cheese, Corn on the Cob" },
+            { "Week 2", "Grilled Veggie Panini, Tomato Soup, Side Salad" },
+            { "Week 3", "Fried Rice, Spring Rolls, Sweet and Sour Chicken" },
+            { "Week 4", "Cheeseburgers, French Fries, Coleslaw" } } },
+        { "August", new string[,] {
+            { "Week 1", "Mediterranean Chicken, Couscous, Greek Salad" },
+            { "Week 2", "Spaghetti Carbonara, Garlic Bread, Mixed Greens" },
+            { "Week 3", "Grilled Tilapia, Rice Pilaf, Steamed Spinach" },
+            { "Week 4", "Chili Con Carne, Cornbread, Steamed Vegetables" } } },
+        { "September", new string[,] {
+            { "Week 1", "Baked Ziti, Garlic Knots, Caesar Salad" },
+            { "Week 2", "Pork Chops, Mashed Sweet Potatoes, Green Beans" },
+            { "Week 3", "Chicken Fajitas, Mexican Rice, Refried Beans" },
+            { "Week 4", "Vegetable Stir-fry, Fried Rice, Spring Rolls" } } },
+        { "October", new string[,] {
+            { "Week 1", "Shepherd's Pie, Mixed Greens, Dinner Roll" },
+            { "Week 2", "Fish and Chips, Tartar Sauce, Coleslaw" },
+            { "Week 3", "Grilled Chicken Caesar Salad, Breadsticks" },
+            { "Week 4", "Beef Stroganoff, Egg Noodles, Steamed Vegetables" } } },
+        { "November", new string[,] {
+            { "Week 1", "Turkey Dinner, Mashed Potatoes, Cranberry Sauce" },
+            { "Week 2", "Chicken Parmesan, Spaghetti, Garlic Bread" },
+            { "Week 3", "Grilled Salmon, Couscous, Steamed Broccoli" },
+            { "Week 4", "Pulled Pork Sliders, Coleslaw, Baked Beans" } } },
+        { "December", new string[,] {
+            { "Week 1", "Beef Wellington, Mashed Potatoes, Glazed Carrots" },
+            { "Week 2", "Honey Baked Ham, Scalloped Potatoes, Green Beans" },
+            { "Week 3", "Stuffed Turkey Breast, Cranberry Sauce, Mixed Veggies" },
+            { "Week 4", "Prime Rib, Au Gratin Potatoes, Steamed Asparagus" } } }
+    };
+}
+
+<h1>Weekly Menu</h1>
+<p>Select your meals for each week of the year:</p>
+
+<!-- Tabbed Interface -->
+<ul class="nav nav-tabs" id="menuTabs" role="tablist">
+    @foreach (var month in menus.Keys)
+    {
+        <li class="nav-item" role="presentation">
+            <button class="nav-link @((month == menus.Keys.First()) ? "active" : "")" id="@month-tab" data-bs-toggle="tab" data-bs-target="#@month" type="button" role="tab" aria-controls="@month" aria-selected="@((month == menus.Keys.First()) ? "true" : "false")">
+                @month
+            </button>
+        </li>
+    }
+</ul>
+<div class="tab-content mt-3" id="menuTabsContent">
+    @foreach (var month in menus)
+    {
+        <div class="tab-pane fade @((month.Key == menus.Keys.First()) ? "show active" : "")" id="@month.Key" role="tabpanel" aria-labelledby="@month.Key-tab">
+            <table class="table table-sm table-striped">
+                <thead>
+                    <tr>
+                        <th>Week</th>
+                        <th>Menu</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int week = 0; week < month.Value.GetLength(0); week++)
+                    {
+                        <tr>
+                            <td>@month.Value[week, 0]</td>
+                            <td>@month.Value[week, 1]</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+<!-- Reach Us Button -->
+<div class="d-flex justify-content-end mt-4">
+    <a asp-controller="Home" asp-action="Privacy" class="btn btn-primary">Reach Us</a>
+</div>

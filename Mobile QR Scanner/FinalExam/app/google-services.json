@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "303109082488",
+    "project_id": "login-register-firebas-5688e",
+    "storage_bucket": "login-register-firebas-5688e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303109082488:android:62a2e7bf8d62b5c1b28c8d",
+        "android_client_info": {
+          "package_name": "first.javatpoint.com.finalexam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP_BI54XNyOJlPP_3r3AiA1avnUUUjzyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

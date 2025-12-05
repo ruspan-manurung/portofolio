@@ -1,0 +1,23 @@
+body {
+        background-color: black;
+}
+.container {
+    min-height: 100vh;          
+    display: flex;              
+    align-items: center;        
+    justify-content: center;    
+    margin: 0;
+    text-align: center;
+}
+img {
+    max-width: 100%;             /* keep it responsive */
+    height: auto;
+    display: block;
+    border: 5px solid white; /* add a border */
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    text-transform: uppercase;
+}

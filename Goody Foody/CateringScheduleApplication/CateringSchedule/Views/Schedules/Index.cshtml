@@ -1,0 +1,72 @@
+﻿@model IEnumerable<CateringSchedule.Models.Schedule>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Order List</h1>
+
+<p>
+    <a class= "btn btn-primary" asp-action="Create">New Order</a>
+</p>
+<table class="table table-bordered table-hover table-responsive-lg">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactPerson)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contract)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>View</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactPerson)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contract)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+
+            <td>
+            <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Details</a>
+            </td>
+            <td>
+             <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@item.Id">Edit</a> 
+            </td>
+            <td>
+             <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+             </td>
+        </tr>
+}
+    </tbody>
+</table>

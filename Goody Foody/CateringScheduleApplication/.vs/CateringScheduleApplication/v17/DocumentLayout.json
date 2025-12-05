@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|c:\\users\\ruspan\\source\\repos\\cateringscheduleapplication\\cateringschedule\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|solutionrelative:cateringschedule\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|c:\\users\\ruspan\\source\\repos\\cateringscheduleapplication\\cateringschedule\\views\\schedules\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|solutionrelative:cateringschedule\\views\\schedules\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|c:\\users\\ruspan\\source\\repos\\cateringscheduleapplication\\cateringschedule\\views\\schedules\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|solutionrelative:cateringschedule\\views\\schedules\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|c:\\users\\ruspan\\source\\repos\\cateringscheduleapplication\\cateringschedule\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|solutionrelative:cateringschedule\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|c:\\users\\ruspan\\source\\repos\\cateringscheduleapplication\\cateringschedule\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|solutionrelative:cateringschedule\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|c:\\users\\ruspan\\source\\repos\\cateringscheduleapplication\\cateringschedule\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|solutionrelative:cateringschedule\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|c:\\users\\ruspan\\source\\repos\\cateringscheduleapplication\\cateringschedule\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|solutionrelative:cateringschedule\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|c:\\users\\ruspan\\source\\repos\\cateringscheduleapplication\\cateringschedule\\controllers\\schedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|solutionrelative:cateringschedule\\controllers\\schedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|c:\\users\\ruspan\\source\\repos\\cateringscheduleapplication\\cateringschedule\\views\\schedules\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|solutionrelative:cateringschedule\\views\\schedules\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|c:\\users\\ruspan\\source\\repos\\cateringscheduleapplication\\cateringschedule\\views\\schedules\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|solutionrelative:cateringschedule\\views\\schedules\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|c:\\users\\ruspan\\source\\repos\\cateringscheduleapplication\\cateringschedule\\views\\schedules\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A3AEB2E-D2DC-4180-84B4-36CF1B0AE25B}|CateringSchedule\\CateringSchedule.csproj|solutionrelative:cateringschedule\\views\\schedules\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CateringSchedule\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CateringSchedule\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T09:31:41.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CateringSchedule\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "CateringSchedule\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T08:11:56.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SchedulesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Controllers\\SchedulesController.cs",
+              "RelativeDocumentMoniker": "CateringSchedule\\Controllers\\SchedulesController.cs",
+              "ToolTip": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Controllers\\SchedulesController.cs",
+              "RelativeToolTip": "CateringSchedule\\Controllers\\SchedulesController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAYwHsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T08:06:59.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "CateringSchedule\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "CateringSchedule\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T08:06:32.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Schedules\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CateringSchedule\\Views\\Schedules\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Schedules\\Edit.cshtml",
+              "RelativeToolTip": "CateringSchedule\\Views\\Schedules\\Edit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADUAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T02:07:54.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Schedules\\Create.cshtml",
+              "RelativeDocumentMoniker": "CateringSchedule\\Views\\Schedules\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Schedules\\Create.cshtml",
+              "RelativeToolTip": "CateringSchedule\\Views\\Schedules\\Create.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAkwEIAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T17:50:57.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CateringSchedule\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CateringSchedule\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T08:12:39.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CateringSchedule\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CateringSchedule\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T08:12:24.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Schedules\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CateringSchedule\\Views\\Schedules\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Schedules\\Delete.cshtml",
+              "RelativeToolTip": "CateringSchedule\\Views\\Schedules\\Delete.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T17:51:46.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Schedules\\Details.cshtml",
+              "RelativeDocumentMoniker": "CateringSchedule\\Views\\Schedules\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Schedules\\Details.cshtml",
+              "RelativeToolTip": "CateringSchedule\\Views\\Schedules\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T02:07:50.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Schedules\\Index.cshtml",
+              "RelativeDocumentMoniker": "CateringSchedule\\Views\\Schedules\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ruspan\\source\\repos\\CateringScheduleApplication\\CateringSchedule\\Views\\Schedules\\Index.cshtml",
+              "RelativeToolTip": "CateringSchedule\\Views\\Schedules\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADwAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-07T17:50:38.422Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
